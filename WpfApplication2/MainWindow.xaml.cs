@@ -25,5 +25,10 @@ namespace WpfApplication2
 
             
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"C:\Users\Daxia\Desktop\GDIcuowu.doc");  //直接调用打开文件
+        }
     }
 }
